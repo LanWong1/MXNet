@@ -5,3 +5,5 @@ import time
 
 mnist_train = gdata.vision.FashionMNIST(train=True)
 mnist_test = gdata.vision.FashionMNIST(train=False)
+
+feature, label = mnist_train[0]
